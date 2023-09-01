@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "my-app",
+    "slug": "my-app",
+    "android": {
+      "package": "com.mbadrawy.myapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.mbadrawy.myapp"
+    }
+  }
+}
