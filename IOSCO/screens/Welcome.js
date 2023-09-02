@@ -1,77 +1,3 @@
-// import React, { useState } from "react";
-// import {
-//   StyleSheet,
-//   Text,
-//   View,
-//   TouchableOpacity,
-//   Image,
-//   FlatList,
-// } from "react-native";
-
-// const photos = [
-//   require("../assets/iosco.gif"),
-//   require("../assets/fra.gif"),
-//   require("../assets/conf.gif"),
-//   // Add more photo paths here
-// ];
-
-// function WelcomeScreen(props) {
-//   const renderPhoto = ({ item }) => (
-//     <Image source={item} style={styles.image} />
-//   );
-//   return (
-//     <View style={styles.container}>
-//       <FlatList
-//         data={photos}
-//         renderItem={renderPhoto}
-//         keyExtractor={(item, index) => index.toString()}
-//         horizontal
-//         pagingEnabled
-//       />
-//       <Text style={styles.text}>Welcome Screen</Text>
-//       <TouchableOpacity
-//         style={[styles.button, { backgroundColor: "blue" }]}
-//         onPress={() => props.navigation.navigate("Home")}
-//       >
-//         <Text style={styles.buttonText}>Go to home</Text>
-//       </TouchableOpacity>
-//     </View>
-//   );
-// }
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: "#fff",
-//     alignItems: "center",
-//   },
-//   text: {
-//     fontSize: 20,
-//     textAlign: "center",
-//     marginTop: 50,
-//   },
-//   image: {
-//     width: 200, // Adjust the width as needed
-//     height: 200, // Adjust the height as needed
-//     resizeMode: "contain",
-//     alignSelf: "center",
-//   },
-//   button: {
-//     width: "40%",
-//     height: 50,
-//     alignSelf: "center",
-//     margin: 0,
-//     color: "red",
-//     borderRadius: 5,
-//     padding: 10,
-//   },
-//   buttonText: {
-//     color: "white",
-//     textAlign: "center",
-//     fontWeight: "bold",
-//     fontSize: 18,
-//   },
-// });
-// export default WelcomeScreen;
 import React from "react";
 import {
   StyleSheet,
@@ -85,7 +11,7 @@ import Carousel from "../Carousel";
 
 const textPassages = [
   {
-    text: "Welcome to our app! Swipe to learn more.bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb Schools minister Nick Gibb says the government must avoid jumping to conclusions over the plane crash in Russia that reportedly killed Wagner chief Yevgeny Prigozhin.This only happened a few hours ago, Gibb tells BBC Radio 4s Today programme.He says the government is monitoring the situation closely and working with its allies. I cant go any further at the moment, he adds. But of course, the government will have more to say once our assessment of it has happened, and conversations with allies reach clear conclusions.Schools minister Nick Gibb says the government must avoid jumping to conclusions over the plane crash in Russia that reportedly killed Wagner chief Yevgeny Prigozhin. This only happened a few hours ago, Gibb tells BBC Radio 4s Today programme. He says the government is monitoring the situation closely and working with its allies.I cant go any further at the moment, he adds. But of course, the government will have more to say once our assessment of it has happened, and conversations with allies reach clear conclusions.",
+    text: "Welcome to our app! ",
   },
 ];
 
